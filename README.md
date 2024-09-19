@@ -1,6 +1,4 @@
-Here's a draft for your `README.txt` file for the **Django-MyLocation-Prediction** project, including the information about the images:
 
-```
 # Django-MyLocation-Prediction
 
 **Project Name:** My Next Location Prediction  
@@ -102,10 +100,5 @@ This project is licensed under the MIT License.
 ---
 
 **Contact Info:**  
-If you have any questions or need further assistance, feel free to contact me at [your-email@example.com].
+If you have any questions or need further assistance, feel free to contact me at [ramdevops2005@gmail.com].
 
-```
-
-Make sure to replace the placeholder email and GitHub link with actual information from your project.
-
-Let me know if you'd like to customize any part of this further!
