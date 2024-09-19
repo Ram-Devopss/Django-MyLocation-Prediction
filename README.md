@@ -62,19 +62,19 @@ This project, **Django-MyLocation-Prediction**, aims to predict a user's next po
 Here are some screenshots of the application's user interface:
 
 1. **Email Verification Page**  
-   ![Email Verification](screenshots/email-verification-page.jpg)
+   ![Email Verification](Screenshots/email-verification-page.jpg)
 
 2. **Index Page**  
-   ![Index](screenshots/index.jpg)
+   ![Index](Screenshots/index.jpg)
 
 3. **Login Page**  
-   ![Login Page](screenshots/login-page.jpg)
+   ![Login Page](Screenshots/login-page.jpg)
 
 4. **My Location Page**  
-   ![My Location Page](screenshots/my_location_page.jpg)
+   ![My Location Page](Screenshots/my_location_page.jpg)
 
 5. **Signup Page**  
-   ![Signup Page](screenshots/signup-page.jpg)
+   ![Signup Page](Screenshots/signup-page.jpg)
 
 ## How It Works:
 1. **Signup/Login:**  
