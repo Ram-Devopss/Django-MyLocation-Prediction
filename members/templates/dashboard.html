@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Location Detection Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url("https://wallpapers.com/images/hd/minimalist-neon-blue-and-black-world-map-w1ycvc2injlkae7p.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .containers {
+            border: 2px solid #007bff;
+            border-radius: 20px;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: black;
+        }
+
+        .center-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .center-link a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .center-link a:hover {
+            text-decoration: underline;
+        }
+
+        #detect {
+            font-weight: 700;
+            border: 2px solid #28a745;
+            border-radius: 20px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        #detect:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="containers">
+                    <h2 class="text-center mb-4">User Location Detection Result</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Result</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mean Squared Error</td>
+                                <td>{{mean}}</td>
+                            </tr>
+                            <tr>
+                                <td>Predicted Next Latitude</td>
+                                <td>{{lat}}</td>
+                            </tr>
+                            <tr>
+                                <td>Predicted Next Longitude</td>
+                                <td>{{long}}</td>
+                            </tr>
+                            <tr>
+                                <td>Final Decision</td>
+                                <td>{{final}}</td>
+                                <td>
+                                    <p>View on Google Earth: <a href="https://earth.google.com/web/search/{{lat}},{{long}}" target="_blank">Link</a></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="center-link">
+        <a href="#" class="text-muted">Privacy Policy</a>
+        <span class="mx-2 text-muted">|</span>
+        <a id="detect" href="detect">Find It🔍</a>
+        <span class="mx-2 text-muted">|</span>
+        <a href="#" class="text-muted">Terms of Service</a>
+    </div>
+
+    <script>
+        // You can add JavaScript code here if needed
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
